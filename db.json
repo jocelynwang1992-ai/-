@@ -1,0 +1,943 @@
+{
+  "users": [
+    {
+      "username": "teacher",
+      "name": "王老师",
+      "role": "teacher",
+      "password": "wang2601"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "第一课：自我介绍",
+      "pinyinTitle": "Dì-yī Kè: Zìwǒ Jièshào",
+      "description": "学习如何进行基本的自我介绍、问好并结交新朋友。",
+      "lines": [
+        {
+          "character": "你好！我的名字叫大卫。",
+          "pinyin": "Nǐ hǎo! Wǒ de míngzi jiào Dàwèi.",
+          "translation": "Hello! My name is David."
+        },
+        {
+          "character": "你好，大卫！我是你的新中文老师，我姓王。",
+          "pinyin": "Nǐ hǎo, Dàwèi! Wǒ shì nǐ de xīn Zhōngwén lǎoshī, wǒ xìng Wáng.",
+          "translation": "Hello, David! I am your new Chinese teacher, my surname is Wang."
+        },
+        {
+          "character": "很高兴认识你，王老师！",
+          "pinyin": "Hěn gāoxìng rènshi nǐ, Wáng lǎoshī!",
+          "translation": "Very glad to meet you, Teacher Wang!"
+        },
+        {
+          "character": "欢迎你来到中国，我们可以成为好朋友！",
+          "pinyin": "Huānyíng nǐ lái dào Zhōngguó, wǒmen kěyǐ chéngwéi hǎo péngyou!",
+          "translation": "Welcome to China! We can become good friends!"
+        }
+      ],
+      "vocab": [
+        {
+          "id": "v-1-1",
+          "word": "你好",
+          "pinyin": "nǐhǎo",
+          "translation": "hello; hi",
+          "exampleCh": "你好！很高兴见到你。",
+          "examplePy": "Nǐhǎo! Hěn gāoxìng jiàndào nǐ.",
+          "exampleEn": "Hello! Very happy to see you."
+        },
+        {
+          "id": "v-1-2",
+          "word": "名字",
+          "pinyin": "míngzi",
+          "translation": "name",
+          "exampleCh": "你叫什么名字？",
+          "examplePy": "Nǐ jiào shénme míngzi?",
+          "exampleEn": "What is your name?"
+        },
+        {
+          "id": "v-1-3",
+          "word": "老师",
+          "pinyin": "lǎoshī",
+          "translation": "teacher",
+          "exampleCh": "王老师是我们的新中文老师。",
+          "examplePy": "Wáng lǎoshī shì wǒmen de xīn Zhōngwén lǎoshī.",
+          "exampleEn": "Teacher Wang is our new Chinese teacher."
+        },
+        {
+          "id": "v-1-4",
+          "word": "高兴",
+          "pinyin": "gāoxìng",
+          "translation": "happy; glad",
+          "exampleCh": "认识你我很高兴。",
+          "examplePy": "Rènshi nǐ wǒ hěn gāoxìng.",
+          "exampleEn": "Meeting you makes me very happy."
+        },
+        {
+          "id": "v-1-5",
+          "word": "欢迎",
+          "pinyin": "huānyíng",
+          "translation": "to welcome; welcome",
+          "exampleCh": "欢迎你们来到中国！",
+          "examplePy": "Huānyíng nǐmen lái dào Zhōngguó!",
+          "exampleEn": "Welcome you all to China!"
+        },
+        {
+          "id": "v-1-6",
+          "word": "朋友",
+          "pinyin": "péngyou",
+          "translation": "friend",
+          "exampleCh": "大卫是我的好朋友。",
+          "examplePy": "Dàwèi shì wǒ de hǎo péngyou.",
+          "exampleEn": "David is my good friend."
+        }
+      ],
+      "customChoices": [
+        {
+          "id": "rec-choice-py-1781423821080-0",
+          "type": "custom",
+          "questionText": "请问汉字 “你好” 的正确拼音是什么？",
+          "correctAnswer": "nǐhǎo",
+          "options": [
+            "míngzi",
+            "lǎoshī",
+            "nǐhǎo",
+            "gāoxìng"
+          ]
+        },
+        {
+          "id": "rec-choice-tr-1781423821080-1",
+          "type": "custom",
+          "questionText": "生词 “名字” 的英文意思是什么？",
+          "correctAnswer": "name",
+          "options": [
+            "happy; glad",
+            "teacher",
+            "name",
+            "hello; hi"
+          ]
+        },
+        {
+          "id": "rec-choice-py-1781423821080-2",
+          "type": "custom",
+          "questionText": "请问汉字 “老师” 的正确拼音是什么？",
+          "correctAnswer": "lǎoshī",
+          "options": [
+            "gāoxìng",
+            "míngzi",
+            "nǐhǎo",
+            "lǎoshī"
+          ]
+        }
+      ],
+      "customBlanks": [
+        {
+          "vocabWord": "你好",
+          "sentenceWithBlank": "________！很高兴见到你。",
+          "correctAnswer": "你好",
+          "hintEn": "Hello! Very happy to see you."
+        },
+        {
+          "vocabWord": "名字",
+          "sentenceWithBlank": "你叫什么________？",
+          "correctAnswer": "名字",
+          "hintEn": "What is your name?"
+        },
+        {
+          "vocabWord": "老师",
+          "sentenceWithBlank": "王________是我们的新中文老师。",
+          "correctAnswer": "老师",
+          "hintEn": "Teacher Wang is our new Chinese teacher."
+        }
+      ],
+      "customDialogues": [
+        {
+          "previousLineCharacter": "你好！我的名字叫大卫。",
+          "correctAnswerCharacter": "你好，大卫！我是你的新中文老师，我姓王。",
+          "options": [
+            "你好，大卫！我是你的新中文老师，我姓王。",
+            "这是我的家。",
+            "没关系，我们下次再去！",
+            "请问现在是几点？"
+          ]
+        },
+        {
+          "previousLineCharacter": "你好，大卫！我是你的新中文老师，我姓王。",
+          "correctAnswerCharacter": "很高兴认识你，王老师！",
+          "options": [
+            "很高兴认识你，王老师！",
+            "没关系，我们下次再去！",
+            "请问现在是几点？",
+            "这是我的家。"
+          ]
+        },
+        {
+          "previousLineCharacter": "很高兴认识你，王老师！",
+          "correctAnswerCharacter": "欢迎你来到中国，我们可以成为好朋友！",
+          "options": [
+            "请问现在是几点？",
+            "欢迎你来到中国，我们可以成为好朋友！",
+            "没关系，我们下次再去！",
+            "这是我的家。"
+          ]
+        }
+      ],
+      "quizPublished": true
+    },
+    {
+      "id": "lesson-2",
+      "title": "第二课：在饭店点菜",
+      "pinyinTitle": "Dì-èr Kè: Zài Fàndiàn Diǎncài",
+      "description": "到餐厅点餐，学习常用菜肴名称和基础结账对话。",
+      "lines": [
+        {
+          "character": "服务员，请给我看一个菜单。",
+          "pinyin": "Fúwùyuán, qǐng gěi wǒ kàn yí gè càidān.",
+          "translation": "Waiter, please show me a menu."
+        },
+        {
+          "character": "好的，先生。我们这儿的饺子特别好吃！",
+          "pinyin": "Hǎo de, xiānsheng. Wǒmen zhèr de jiǎozi tèbié hǎochī!",
+          "translation": "Okay, sir. Our dumplings here are extremely delicious!"
+        },
+        {
+          "character": "太棒了，那我要一盘饺子，还有一杯热咖啡。",
+          "pinyin": "Tài bàng le, nà wǒ yào yì pán jiǎozi, hái yǒu yì bēi rè kāfēi.",
+          "translation": "Great! Then I'll have a plate of dumplings, and a cup of hot coffee."
+        },
+        {
+          "character": "请慢用。需要买单的时候叫我。",
+          "pinyin": "Qǐng màn yòng. Xūyào mǎidān de shíhou jiào wǒ.",
+          "translation": "Please enjoy. Call me when you need to pay the bill."
+        }
+      ],
+      "vocab": [
+        {
+          "id": "v-2-1",
+          "word": "服务员",
+          "pinyin": "fúwùyuán",
+          "translation": "waiter / waitress",
+          "exampleCh": "服务员，我们要买单。",
+          "examplePy": "Fúwùyuán, wǒmen yào mǎidān.",
+          "exampleEn": "Waiter, we would like to pay."
+        },
+        {
+          "id": "v-2-2",
+          "word": "菜单",
+          "pinyin": "càidān",
+          "translation": "menu",
+          "exampleCh": "这家的菜单有英文翻译。",
+          "examplePy": "Zhè jiā de càidān yǒu Yīngwén fānyì.",
+          "exampleEn": "This restaurant's menu has English translations."
+        },
+        {
+          "id": "v-2-3",
+          "word": "饺子",
+          "pinyin": "jiǎozi",
+          "translation": "dumpling(s)",
+          "exampleCh": "中国人在春节吃饺子。",
+          "examplePy": "Zhōngguórén zài Chūnjié chī jiǎozi.",
+          "exampleEn": "Chinese people eat dumplings during the Spring Festival."
+        },
+        {
+          "id": "v-2-4",
+          "word": "好吃",
+          "pinyin": "hǎochī",
+          "translation": "delicious; tasty (for food)",
+          "exampleCh": "妈妈做的饺子太好吃了。",
+          "examplePy": "Māma zuò de jiǎozi tài hǎochī le.",
+          "exampleEn": "The dumplings my mother made are so delicious."
+        },
+        {
+          "id": "v-2-5",
+          "word": "咖啡",
+          "pinyin": "kāfēi",
+          "translation": "coffee",
+          "exampleCh": "我不喜欢喝苦咖啡。",
+          "examplePy": "Wǒ bù xǐhuan hē kǔ kāfēi.",
+          "exampleEn": "I do not like drinking bitter coffee."
+        },
+        {
+          "id": "v-2-6",
+          "word": "买单",
+          "pinyin": "mǎidān",
+          "translation": "to pay the bill",
+          "exampleCh": "请问我们可以去那里买单吗？",
+          "examplePy": "Qǐngwèn wǒmen kěyǐ qù nàlǐ mǎidān ma?",
+          "exampleEn": "Excuse me, can we go there to pay the bill?"
+        }
+      ]
+    },
+    {
+      "id": "lesson-4",
+      "title": "第四课：她是我的汉语老师",
+      "pinyinTitle": "Dì-sì Kè: Tā shì wǒ de Hànyǔ lǎoshī",
+      "description": "学习第三人称、国籍称呼、“谁”以及“的”、“呢”等中文核心词汇与句型用法。",
+      "lines": [
+        {
+          "character": "她是谁？",
+          "pinyin": "Tā shì shéi?",
+          "translation": "Who is she?"
+        },
+        {
+          "character": "她是我的汉语老师，她叫李月。",
+          "pinyin": "Tā shì wǒ de Hànyǔ lǎoshī, tā jiào Lǐ Yuè.",
+          "translation": "She is my Chinese teacher. Her name is Li Yue."
+        },
+        {
+          "character": "你是哪国人？",
+          "pinyin": "Nǐ shì nǎ guó rén?",
+          "translation": "Which country are you from?"
+        },
+        {
+          "character": "我是美国人。你呢？",
+          "pinyin": "Wǒ shì Měiguó rén. Nǐ ne?",
+          "translation": "I'm from the United States. What about you?"
+        },
+        {
+          "character": "我是中国人。",
+          "pinyin": "Wǒ shì Zhōngguó rén.",
+          "translation": "I'm Chinese."
+        },
+        {
+          "character": "他是谁？",
+          "pinyin": "Tā shì shéi?",
+          "translation": "Who is he?"
+        },
+        {
+          "character": "他是我同学。",
+          "pinyin": "Tā shì wǒ tóngxué.",
+          "translation": "He is my classmate."
+        },
+        {
+          "character": "她呢？她是你同学吗？",
+          "pinyin": "Tā ne? Tā shì nǐ tóngxué ma?",
+          "translation": "What about her? Is she your classmate?"
+        },
+        {
+          "character": "她不是我同学，她是我的朋友。",
+          "pinyin": "Tā bú shì wǒ tóngxué, tā shì wǒ de péngyou.",
+          "translation": "No, she isn't. She is my friend."
+        }
+      ],
+      "vocab": [
+        {
+          "id": "v-4-1",
+          "word": "她",
+          "pinyin": "tā",
+          "translation": "she, her",
+          "exampleCh": "她是李月。",
+          "examplePy": "Tā shì Lǐ Yuè.",
+          "exampleEn": "She is Li Yue."
+        },
+        {
+          "id": "v-4-2",
+          "word": "谁",
+          "pinyin": "shéi",
+          "translation": "who, whom",
+          "exampleCh": "她是谁？",
+          "examplePy": "Tā shì shéi?",
+          "exampleEn": "Who is she?"
+        },
+        {
+          "id": "v-4-3",
+          "word": "的",
+          "pinyin": "de",
+          "translation": "used after an attribute to indicate possession",
+          "exampleCh": "她是我的老师。",
+          "examplePy": "Tā shì wǒ de lǎoshī.",
+          "exampleEn": "She is my teacher."
+        },
+        {
+          "id": "v-4-4",
+          "word": "汉语",
+          "pinyin": "Hànyǔ",
+          "translation": "Chinese (language)",
+          "exampleCh": "我们的汉语老师很和蔼。",
+          "examplePy": "Wǒmen de Hànyǔ lǎoshī hěn hé'ǎi.",
+          "exampleEn": "Our Chinese teacher is very kind."
+        },
+        {
+          "id": "v-4-5",
+          "word": "哪",
+          "pinyin": "nǎ",
+          "translation": "which",
+          "exampleCh": "你是哪国人？",
+          "examplePy": "Nǐ shì nǎ guó rén?",
+          "exampleEn": "Which country are you from?"
+        },
+        {
+          "id": "v-4-6",
+          "word": "国",
+          "pinyin": "guó",
+          "translation": "country, nation, state",
+          "exampleCh": "中国是一个美丽的国家。",
+          "examplePy": "Zhōngguó shì yí gè měilì de guójiā.",
+          "exampleEn": "China is a beautiful country."
+        },
+        {
+          "id": "v-4-7",
+          "word": "呢",
+          "pinyin": "ne",
+          "translation": "used at the end of a question for elliptical questions",
+          "exampleCh": "我是学生，你呢？",
+          "examplePy": "Wǒ shì xuésheng, nǐ ne?",
+          "exampleEn": "I am a student, what about you?"
+        },
+        {
+          "id": "v-4-4-1",
+          "word": "他",
+          "pinyin": "tā",
+          "translation": "he, him",
+          "exampleCh": "他是我同屋。",
+          "examplePy": "Tā shì wǒ tóngwū.",
+          "exampleEn": "He is my roommate."
+        },
+        {
+          "id": "v-4-8",
+          "word": "同学",
+          "pinyin": "tóngxué",
+          "translation": "classmate",
+          "exampleCh": "他是我同学。",
+          "examplePy": "Tā shì wǒ tóngxué.",
+          "exampleEn": "He is my classmate."
+        },
+        {
+          "id": "v-4-9",
+          "word": "朋友",
+          "pinyin": "péngyou",
+          "translation": "friend",
+          "exampleCh": "她是我的好朋友。",
+          "examplePy": "Tā shì wǒ de hǎo péngyou.",
+          "exampleEn": "She is my good friend."
+        }
+      ]
+    },
+    {
+      "id": "lesson-5",
+      "title": "第五课：她女儿今年二十岁",
+      "pinyinTitle": "Dì-wǔ Kè: Tā nǚ'ér jīnnián èrshí suì",
+      "description": "学习如何用中文问及表达家属成员、年龄及常用疑问词“几”与“多”。",
+      "lines": [
+        {
+          "character": "你家有几口人？",
+          "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+          "translation": "How many people are there in your family?"
+        },
+        {
+          "character": "我家有三口人。",
+          "pinyin": "Wǒ jiā yǒu sān kǒu rén.",
+          "translation": "There are three people in my family."
+        },
+        {
+          "character": "你女儿几岁了？",
+          "pinyin": "Nǐ nǚ'ér jǐ suì le?",
+          "translation": "How old is your daughter?"
+        },
+        {
+          "character": "她今年四岁了。",
+          "pinyin": "Tā jīnnián sì suì le.",
+          "translation": "She is four years old this year."
+        },
+        {
+          "character": "李老师多大了？",
+          "pinyin": "Lǐ lǎoshī duō dà le?",
+          "translation": "How old is Professor Li?"
+        },
+        {
+          "character": "她今年50岁了。",
+          "pinyin": "Tā jīnnián wǔshí suì le.",
+          "translation": "She is 50 years old this year."
+        },
+        {
+          "character": "她女儿呢？",
+          "pinyin": "Tā nǚ'ér ne?",
+          "translation": "What about her daughter?"
+        },
+        {
+          "character": "她女儿今年20岁。",
+          "pinyin": "Tā nǚ'ér jīnnián èrshí suì.",
+          "translation": "Her daughter is 20 years old this year."
+        }
+      ],
+      "vocab": [
+        {
+          "id": "v-5-1",
+          "word": "家",
+          "pinyin": "jiā",
+          "translation": "family, home",
+          "exampleCh": "你家住在哪里？",
+          "examplePy": "Nǐ jiā zhù zài nǎlǐ?",
+          "exampleEn": "Where does your family live?"
+        },
+        {
+          "id": "v-5-2",
+          "word": "有",
+          "pinyin": "yǒu",
+          "translation": "to have, there be",
+          "exampleCh": "我家有一只小狗。",
+          "examplePy": "Wǒ jiā yǒu yì zhī xiǎo gǒu.",
+          "exampleEn": "My home has a little dog."
+        },
+        {
+          "id": "v-5-3",
+          "word": "口",
+          "pinyin": "kǒu",
+          "translation": "measure word for members of families",
+          "exampleCh": "你家有几口人？",
+          "examplePy": "Nǐ jiā yǒu jǐ kǒu rén?",
+          "exampleEn": "How many people are there in your family?"
+        },
+        {
+          "id": "v-5-4",
+          "word": "女儿",
+          "pinyin": "nǚ'ér",
+          "translation": "daughter",
+          "exampleCh": "她是我女儿。",
+          "examplePy": "Tā shì wǒ nǚ'ér.",
+          "exampleEn": "She is my daughter."
+        },
+        {
+          "id": "v-5-5",
+          "word": "几",
+          "pinyin": "jǐ",
+          "translation": "how many (usually less than 10)",
+          "exampleCh": "你有几本书？",
+          "examplePy": "Nǐ yǒu jǐ běn shū?",
+          "exampleEn": "How many books do you have?"
+        },
+        {
+          "id": "v-5-6",
+          "word": "岁",
+          "pinyin": "suì",
+          "translation": "year, years of age",
+          "exampleCh": "我今年二十岁。",
+          "examplePy": "Wǒ jīnnián èrshí suì.",
+          "exampleEn": "I am twenty years old this year."
+        },
+        {
+          "id": "v-5-7",
+          "word": "了",
+          "pinyin": "le",
+          "translation": "used at the end of or in the middle of a sentence to indicate change",
+          "exampleCh": "他现在当老师了。",
+          "examplePy": "Tā xiànzài dāng lǎoshī le.",
+          "exampleEn": "He has become a teacher now."
+        },
+        {
+          "id": "v-5-8",
+          "word": "今年",
+          "pinyin": "jīnnián",
+          "translation": "this year",
+          "exampleCh": "今年北京的天气很暖和。",
+          "examplePy": "Jīnnián Běijīng de tiānqì hěn nuǎnhuo.",
+          "exampleEn": "The weather in Beijing is very warm this year."
+        },
+        {
+          "id": "v-5-9",
+          "word": "多",
+          "pinyin": "duō",
+          "translation": "indicating degree or extent",
+          "exampleCh": "他有多高？",
+          "examplePy": "Tā yǒu duō gāo?",
+          "exampleEn": "How tall is he?"
+        },
+        {
+          "id": "v-5-10",
+          "word": "大",
+          "pinyin": "dà",
+          "translation": "(of age) old",
+          "exampleCh": "李老师多大了？",
+          "examplePy": "Lǐ lǎoshī duō dà le?",
+          "exampleEn": "How old is Professor Li?"
+        }
+      ],
+      "customChoices": [
+        {
+          "id": "rec-choice-py-1781421835296-0",
+          "type": "custom",
+          "questionText": "请问汉字 “家” 的正确拼音是什么？",
+          "correctAnswer": "jiā",
+          "options": [
+            "kǒu",
+            "nǚ'ér",
+            "yǒu",
+            "jiā"
+          ]
+        },
+        {
+          "id": "rec-choice-tr-1781421835296-1",
+          "type": "custom",
+          "questionText": "生词 “有” 的英文意思是什么？",
+          "correctAnswer": "to have, there be",
+          "options": [
+            "measure word for members of families",
+            "daughter",
+            "to have, there be",
+            "family, home"
+          ]
+        },
+        {
+          "id": "rec-choice-py-1781421835296-2",
+          "type": "custom",
+          "questionText": "请问汉字 “口” 的正确拼音是什么？",
+          "correctAnswer": "kǒu",
+          "options": [
+            "jiā",
+            "yǒu",
+            "kǒu",
+            "nǚ'ér"
+          ]
+        }
+      ],
+      "customBlanks": [
+        {
+          "vocabWord": "家",
+          "sentenceWithBlank": "你________住在哪里？",
+          "correctAnswer": "家",
+          "hintEn": "Where does your family live?"
+        },
+        {
+          "vocabWord": "有",
+          "sentenceWithBlank": "我家________一只小狗。",
+          "correctAnswer": "有",
+          "hintEn": "My home has a little dog."
+        },
+        {
+          "vocabWord": "口",
+          "sentenceWithBlank": "你家有几________人？",
+          "correctAnswer": "口",
+          "hintEn": "How many people are there in your family?"
+        }
+      ],
+      "customDialogues": [
+        {
+          "previousLineCharacter": "你家有几口人？",
+          "correctAnswerCharacter": "我家有三口人。",
+          "options": [
+            "请问现在是几点？",
+            "这是我的家。",
+            "没关系，我们下次再去！",
+            "我家有三口人。"
+          ]
+        },
+        {
+          "previousLineCharacter": "我家有三口人。",
+          "correctAnswerCharacter": "你女儿几岁了？",
+          "options": [
+            "没关系，我们下次再去！",
+            "这是我的家。",
+            "请问现在是几点？",
+            "你女儿几岁了？"
+          ]
+        },
+        {
+          "previousLineCharacter": "你女儿几岁了？",
+          "correctAnswerCharacter": "她今年四岁了。",
+          "options": [
+            "请问现在是几点？",
+            "没关系，我们下次再去！",
+            "她今年四岁了。",
+            "这是我的家。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-1781425157261",
+      "title": "第六课：《小狐狸与星星》",
+      "pinyinTitle": "Dì-liù Kè: 《Xiǎo Húli Yǔ Xīngxing》",
+      "description": "通过精读小狐狸阿星寻找最亮星星的睡前故事，学习描写自然、愿望、相信等常用中文生词与表达方式。",
+      "lessonType": "prose",
+      "imageUrl": "/src/assets/images/story_cover_1781433762517.jpg",
+      "lines": [
+        {
+          "character": "晚上，月亮挂在天空上。 小狐狸阿星在森林里散步。 忽然，他看到一条发光的小路。",
+          "pinyin": "Wǎnshàng, yuèliàng guà zài tiānkōng shàng. Xiǎo húli Āxīng zài sēnlín lǐ sànbù. Hūrán, tā kàndào yītiáo fāguāng de xiǎolù.",
+          "translation": "At night, the moon was hanging in the sky. The little fox, Axing, was taking a walk in the forest. Suddenly, he saw a glowing path.",
+          "imageUrl": "/src/assets/images/story_page1_1781433776722.jpg"
+        },
+        {
+          "character": "阿星很好奇，慢慢走上那条路。 路的最后面，有一棵金色的大树。 树下坐着一只戴眼镜的猫头鹰。",
+          "pinyin": "Āxīng hěn hàoqí, mànmàn zǒu shàng nà tiáo lù. Lù de zuìhòumiàn, yǒu yī kē jīnsè de dà shù. Shù xià zuòzhe yī zhǐ dài yǎnjìng de māotóuyīng.",
+          "translation": "Axing was very curious and slowly walked along that path. At the very end of the path, there was a golden tree. Under the tree sat an owl wearing glasses.",
+          "imageUrl": "/src/assets/images/story_page2_1781433791579.jpg"
+        },
+        {
+          "character": "猫头鹰说：“欢迎来到月亮森林！” “每只动物都有一个愿望，你想要什么？” 阿星想了想，说：“我想要找到最亮的星星”",
+          "pinyin": "Māotóuyīng shuō: “Huānyíng lái dào yuèliàng sēnlín!” “Měi zhǐ dòngwù dōu yǒu yí gè yuànwàng, nǐ xiǎng yào shénme?” Āxīng xiǎngle xiǎng, shuō: “Wǒ xiǎng yào zhǎodào zuì liàng de xīngxing”",
+          "translation": "The owl said: 'Welcome to the Moon Forest! Every animal has a wish, what do you want?' Axing thought for a moment and said: 'I want to find the brightest star.'",
+          "imageUrl": "/src/assets/images/story_page3_1781433805852.jpg"
+        },
+        {
+          "character": "猫头鹰拿出一根金色的羽毛，递给阿星，说：“这是一根星光羽毛，它可以帮你找到那颗最亮的星星。” 阿星：“真的可以吗？谢谢你！” 猫头鹰：“当然。但你要相信自己的心”",
+          "pinyin": "Māotóuyīng ná chū yì gēn jīnsè de yǔmáo, dì gěi Āxīng, shuō: “Zhè shì yì gēn xīngguāng yǔmáo, tā kěyǐ bāng nǐ zhǎodào nà kē zuì liàng de xīngxing.” Āxīng: “Zhēn de kěyǐ ma? Xièxie nǐ!” Māotóuyīng: “Dāngrán. Dàn nǐ yào xiāngxìn zìjǐ de xīn”",
+          "translation": "The owl took out a golden feather, handed it to Axing, and said: 'This is a starlight feather, it can help you find that brightest star.' Axing: 'Can it really? Thank you!' Owl: 'Of course. But you must believe in your own heart.'",
+          "imageUrl": "/src/assets/images/story_page4_1781433822460.jpg"
+        },
+        {
+          "character": "阿星拿着羽毛跑到山顶。天空上闪着很多星星。 阿星：“星星们，我来了！” （羽毛突然发出金色的光，一颗星星来到了阿星的前面）",
+          "pinyin": "Āxīng názhe yǔmáo pǎo dào shāndǐng. Tiānkōng shang shǎnzhe hěnduō xīngxing. Āxīng: “Xīngxingmen, wǒ lái le!” (Yǔmáo tūrán fāchū jīnsè de guāng, yì kē xīngxing lái dàole Āxīng de qiánmiàn)",
+          "translation": "Axing ran to the mountain top holding the feather. Many stars were sparkling in the sky. Axing: 'Stars, here I come!' (The feather suddenly emitted a golden light, and a star came in front of Axing.)",
+          "imageUrl": "/src/assets/images/story_page5_1781433836935.jpg"
+        },
+        {
+          "character": "阿星：“哇～ 你是最亮的星星吗？” 星星：“是啊！你终于找到我了”",
+          "pinyin": "Āxīng: “Wa~ Nǐ shì zuì liàng de xīngxing ma?” Xīngxing: “Shì a! Nǐ zhōngyú zhǎodào wǒ le”",
+          "translation": "Axing: 'Wow~ Are you the brightest star?' Star: 'Yes! You finally found me.'",
+          "imageUrl": "/src/assets/images/story_page6_1781433850991.jpg"
+        },
+        {
+          "character": "阿星对星星说：“谢谢你，星星” 星星：（笑着）“不客气，记得让你的心，也一直亮着哦。” 阿星：“我会的” 最后，星星笑着飞回天空。从那天起，森林变得更亮了。",
+          "pinyin": "Āxīng duì xīngxing shuō: “Xièxie nǐ, xīngxing” Xīngxing: (xiàozhe) “Bú kèqi, jìdé ràng nǐ de xīn, yě yīzhí liàngzhe o.” Āxīng: “Wǒ huì de” Zuìhòu, xīngxing xiàozhe fēi huí tiānkōng. Cóng nà tiān qǐ, sēnlín biànde gèng liàng le.",
+          "translation": "Axing said to the star: 'Thank you, star'. Star (smiling): 'You are welcome, remember to make your heart keep shining too.' Axing: 'I will'. Finally, the star flew back to the sky with a smile. From that day on, the forest became brighter.",
+          "imageUrl": "/src/assets/images/story_page7_1781433866319.jpg"
+        }
+      ],
+      "vocab": [
+        {
+          "id": "v-6-1",
+          "word": "狐狸",
+          "pinyin": "húlí",
+          "translation": "fox",
+          "exampleCh": "小狐狸阿星在森林里散步。",
+          "examplePy": "Xiǎo húli Āxīng zài sēnlín lǐ sànbù.",
+          "exampleEn": "The little fox Axing was taking a walk in the forest."
+        },
+        {
+          "id": "v-6-2",
+          "word": "猫头鹰",
+          "pinyin": "māotóuyīng",
+          "translation": "owl",
+          "exampleCh": "树下坐着一只戴眼镜的猫头鹰。",
+          "examplePy": "Shù xià zuòzhe yī zhǐ dài yǎnjìng de māotóuyīng.",
+          "exampleEn": "An owl wearing glasses was sitting under the tree."
+        },
+        {
+          "id": "v-6-3",
+          "word": "森林",
+          "pinyin": "sēnlín",
+          "translation": "forest",
+          "exampleCh": "月亮森林是一个美丽的地方。",
+          "examplePy": "Yuèliang sēnlín shì yí gè měilì de dìfang.",
+          "exampleEn": "The moon forest is a beautiful place."
+        },
+        {
+          "id": "v-6-4",
+          "word": "月亮",
+          "pinyin": "yuèliang",
+          "translation": "moon",
+          "exampleCh": "晚上，月亮挂在天空上。",
+          "examplePy": "Wǎnshàng, yuèliàng guà zài tiānkōng shàng.",
+          "exampleEn": "At night, the moon was hanging in the sky."
+        },
+        {
+          "id": "v-6-5",
+          "word": "羽毛",
+          "pinyin": "yǔmáo",
+          "translation": "feather",
+          "exampleCh": "这是一根金色的羽毛。",
+          "examplePy": "Zhè shì yì gēn jīnsè de yǔmáo.",
+          "exampleEn": "This is a golden feather."
+        },
+        {
+          "id": "v-6-6",
+          "word": "山顶",
+          "pinyin": "shāndǐng",
+          "translation": "mountain top; summit",
+          "exampleCh": "阿星拿着羽毛跑到山顶。",
+          "examplePy": "Āxīng názhe yǔmáo pǎo dào shāndǐng.",
+          "exampleEn": "Axing ran to the mountain top holding the feather."
+        },
+        {
+          "id": "v-6-7",
+          "word": "散步",
+          "pinyin": "sànbù",
+          "translation": "to take a walk",
+          "exampleCh": "我们每天晚上在森林里散步。",
+          "examplePy": "Wǒmen měitiān wǎnshàng zài sēnlín lǐ sànbù.",
+          "exampleEn": "We take a walk in the forest every evening."
+        },
+        {
+          "id": "v-6-8",
+          "word": "发光",
+          "pinyin": "fāguāng",
+          "translation": "to shine / to glow",
+          "exampleCh": "他看到一条发光的小路。",
+          "examplePy": "Tā kàndào yītiáo fāguāng de xiǎolù.",
+          "exampleEn": "He saw a glowing path."
+        },
+        {
+          "id": "v-6-9",
+          "word": "挂",
+          "pinyin": "guà",
+          "translation": "to hang",
+          "exampleCh": "月亮挂在深蓝色的天空上。",
+          "examplePy": "Yuèliang guà zài shēnlán sè de tiānkōng shang.",
+          "exampleEn": "The moon hangs in the deep blue sky."
+        },
+        {
+          "id": "v-6-10",
+          "word": "好奇",
+          "pinyin": "hàoqí",
+          "translation": "curious",
+          "exampleCh": "阿星对这条小路很好奇。",
+          "examplePy": "Āxīng duì zhè tiáo lù hěn hàoqí.",
+          "exampleEn": "Axing was very curious about this path."
+        },
+        {
+          "id": "v-6-11",
+          "word": "相信",
+          "pinyin": "xiāngxìn",
+          "translation": "to believe",
+          "exampleCh": "你要相信自己的心。",
+          "examplePy": "Nǐ yào xiāngxìn zìjǐ de xīn.",
+          "exampleEn": "You must believe in your own heart."
+        },
+        {
+          "id": "v-6-12",
+          "word": "找",
+          "pinyin": "zhǎo",
+          "translation": "to look for / to search",
+          "exampleCh": "我想找到最亮的星星。",
+          "examplePy": "Wǒ xiǎng zhǎodào zuì liàng de xīngxing.",
+          "exampleEn": "I want to find the brightest star."
+        },
+        {
+          "id": "v-6-13",
+          "word": "愿望",
+          "pinyin": "yuànwàng",
+          "translation": "wish / desire",
+          "exampleCh": "每只动物都有一个愿望。",
+          "examplePy": "Měi zhǐ dòngwù dōu yǒu yí gè yuànwàng.",
+          "exampleEn": "Every animal has a wish."
+        },
+        {
+          "id": "v-6-14",
+          "word": "亮",
+          "pinyin": "liàng",
+          "translation": "bright / shining",
+          "exampleCh": "今晚的星星特别亮。",
+          "examplePy": "Jīnwǎn de xīngxing tèbié liàng.",
+          "exampleEn": "The stars tonight are exceptionally bright."
+        },
+        {
+          "id": "v-6-15",
+          "word": "记得",
+          "pinyin": "jìdé",
+          "translation": "to remember",
+          "exampleCh": "记得写你的中文作业。",
+          "examplePy": "Jìdé xiě nǐ de Zhōngwén zuòyè.",
+          "exampleEn": "Remember to write your Chinese homework."
+        },
+        {
+          "id": "v-6-16",
+          "word": "天空",
+          "pinyin": "tiānkōng",
+          "translation": "sky",
+          "exampleCh": "天空上有许多美丽的星星。",
+          "examplePy": "Tiānkōng shang yǒu xǔduō měilì de xīngxing.",
+          "exampleEn": "There are many beautiful stars in the sky."
+        },
+        {
+          "id": "v-6-17",
+          "word": "闪",
+          "pinyin": "shǎn",
+          "translation": "to sparkle / to flash",
+          "exampleCh": "天空上闪着很多星星。",
+          "examplePy": "Tiānkōng shang shǎnzhe hěnduō xīngxing.",
+          "exampleEn": "Many stars are sparkling in the sky."
+        },
+        {
+          "id": "v-6-18",
+          "word": "终于",
+          "pinyin": "zhōngyú",
+          "translation": "finally / at last",
+          "exampleCh": "你终于找到我了。",
+          "examplePy": "Nǐ zhōngyú zhǎodào wǒ le.",
+          "exampleEn": "You've finally found me."
+        }
+      ],
+      "customChoices": [
+        {
+          "id": "rec-choice-py-story-0",
+          "type": "custom",
+          "questionText": "请问汉字 “狐狸” 的正确拼音是什么？",
+          "correctAnswer": "húlí",
+          "options": [
+            "sēnlín",
+            "húlí",
+            "yǔmáo",
+            "māotóuyīng"
+          ]
+        },
+        {
+          "id": "rec-choice-tr-story-1",
+          "type": "custom",
+          "questionText": "生词 “愿望” 的英文意思是什么？",
+          "correctAnswer": "wish",
+          "options": [
+            "forest",
+            "feather",
+            "wish",
+            "sky"
+          ]
+        },
+        {
+          "id": "rec-choice-py-story-2",
+          "type": "custom",
+          "questionText": "请问汉字 “猫头鹰” 的正确拼音是什么？",
+          "correctAnswer": "māotóuyīng",
+          "options": [
+            "māotóuyīng",
+            "shāndǐng",
+            "yuèliang",
+            "húlí"
+          ]
+        }
+      ],
+      "customBlanks": [
+        {
+          "vocabWord": "月亮",
+          "sentenceWithBlank": "晚上，________挂在天空上。",
+          "correctAnswer": "月亮",
+          "hintEn": "At night, the moon was hanging in the sky."
+        },
+        {
+          "vocabWord": "相信",
+          "sentenceWithBlank": "你要________自己的心。",
+          "correctAnswer": "相信",
+          "hintEn": "You must believe in your own heart."
+        },
+        {
+          "vocabWord": "终于",
+          "sentenceWithBlank": "你________找到我了。",
+          "correctAnswer": "终于",
+          "hintEn": "You've finally found me."
+        }
+      ],
+      "customDialogues": [
+        {
+          "previousLineCharacter": "每只动物都有一个愿望，你想要什么？",
+          "correctAnswerCharacter": "我想要找到最亮的星星",
+          "options": [
+            "我想要找到最亮的星星",
+            "你好，我是小狐狸阿星。",
+            "这是一根星光羽毛。",
+            "外面天气真好，我们去散步吧。"
+          ]
+        },
+        {
+          "previousLineCharacter": "真的可以吗？谢谢你！",
+          "correctAnswerCharacter": "当然。但你要相信自己的心",
+          "options": [
+            "不客气，记得让你的心，也一直亮着哦。",
+            "当然。但你要相信自己的心",
+            "星星们，我来了！",
+            "晚上，月亮挂在天空上。"
+          ]
+        }
+      ],
+      "quizPublished": true
+    }
+  ]
+}

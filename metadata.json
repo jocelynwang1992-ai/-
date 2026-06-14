@@ -1,0 +1,6 @@
+{
+  "name": "Chinese Learning Platform",
+  "description": "A custom Chinese learning platform with synchronized student and teacher consoles. Features vocabulary flashcards, audio pronunciation, matching/multiple-choice quiz engines, interactive reading texts with pinyin headers, synchronized live editing, and a classroom administration dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

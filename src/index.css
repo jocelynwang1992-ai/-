@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-amber-50: #FAF7F2;
+  --color-amber-100: #F0EAE1;
+  --color-amber-200: #EFE9DB;
+  --color-amber-500: #C2413C;
+  --color-amber-600: #A83733;
+  --color-amber-700: #C2413C;
+  --color-amber-800: #A83733;
+  --color-amber-900: #8A1A16;
+
+  --color-brand-bg: #FAF7F2;
+  --color-brand-crimson: #C2413C;
+  --color-brand-crimson-hover: #A83733;
+  --color-brand-capsule: #F0EAE1;
+  --color-brand-border: #ECE5D9;
+  --color-brand-sand: #8A8275;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  45%, 80% { transform: translateX(5px); }
+}
+
+.animate-shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
+}
+
+/* Smooth active scale state elements */
+.scale-98 {
+  transform: scale(0.98);
+}
+
+
